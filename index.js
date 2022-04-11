@@ -50,19 +50,19 @@ await client.process(settings.guildID, user, `BAN_ADD`,` \`${ban.user}\` adlı k
 client.on(`guildMemberAdd`, async member => {
 let entry = await member.guild.fetchAuditLogs({type: 'BOT_ADD'}).then(audit => audit.entries.first());
 if(!entry || !entry.executor) return;
-const user = ban.guild.members.cache.get(entry.executor.id)
+const user = member.guild.members.cache.get(entry.executor.id)
 await client.process(settings.guildID, user, `BOT_ADD`,` \`${member.user}\` adlı botu sunucuya çekme`, Date.now())
 })
 client.on(`guildMemberRemove`, async member => {
 let entry = await member.guild.fetchAuditLogs({type: 'MEMBER_KICK'}).then(audit => audit.entries.first());
 if(!entry || !entry.executor) return;
-const user = ban.guild.members.cache.get(entry.executor.id)
+const user = member.guild.members.cache.get(entry.executor.id)
 await client.process(settings.guildID, user, `MEMBER_KICK`,` \`${member.user}\` adlı kullanıcıyı atmak`, Date.now())
 })
 client.on(`guildMemberRemove`, async member => {
 let entry = await member.guild.fetchAuditLogs({type: 'MEMBER_PRUNE'}).then(audit => audit.entries.first());
 if(!entry || !entry.executor) return;
-const user = ban.guild.members.cache.get(entry.executor.id)
+const user = member.guild.members.cache.get(entry.executor.id)
 await client.process(settings.guildID, user, `MEMBER_PRUNE`,`sunucuda ki üyeleri çıkartmak`, Date.now())
 })
 
@@ -108,15 +108,15 @@ await client.process(settings.guildID, user.id, `ROLE_UPDATE`,` \`${oldRole.name
 
 // GUİLD
 client.on(`guildUpdate`, async (oldGuild,newGuild) => {
-let entry = await oldRole.guild.fetchAuditLogs({type: 'GUİLD_UPDATE'}).then(audit => audit.entries.first());
+let entry = await oldGuild.guild.fetchAuditLogs({type: 'GUİLD_UPDATE'}).then(audit => audit.entries.first());
 if(!entry || !entry.executor) return;
-const user = oldRole.guild.members.cache.get(entry.executor.id)
+const user = oldGuild.guild.members.cache.get(entry.executor.id)
 await client.process(settings.guildID, user.id, `GUİLD_UPDATE`,` sunucu ayarlarıyla oynama`, Date.now())
 })
 client.on(`webhookUpdate`, async (oldGuild,newGuild) => {
-let entry = await oldRole.guild.fetchAuditLogs({type: 'WEBHOOK_CREATE'}).then(audit => audit.entries.first());
+let entry = await oldGuild.guild.fetchAuditLogs({type: 'WEBHOOK_CREATE'}).then(audit => audit.entries.first());
 if(!entry || !entry.executor) return;
-const user = oldRole.guild.members.cache.get(entry.executor.id)
+const user = oldGuild.guild.members.cache.get(entry.executor.id)
 await client.process(settings.guildID, user.id, `WEBHOOK_CREATE`,` sunucuda webhook oluşturma`, Date.now())
 })
 
