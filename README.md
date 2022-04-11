@@ -6,12 +6,12 @@ Sunucuda yapılan işlemleri dataya kaydettirip komut ile gösteren bottur isted
 * Yeşil Code butonuna basın ve Downland zip seçeneğine tıklayın indirme işlemini bekleyin.
 * İndirme işlemi tamamlandığında zipin üstüne gelerek buraya çıkartı işaretleyin.
 * Klasörü çıkardıkdan sonra `settings.js` adlı dosyayı doldurmanız gerekmekte doğru bir şekilde doldurduğunuzdan emin olun.
-* `settings.js` dosyasında bulunan `mongoURL` kısmına mongo linkinizi girin, Mongo linki almayı bilmiyorsanız [Tıklayın](https://www.youtube.com/watch?v=s_-gJn9GDus)
-* Terminali açıp `npm install` yazıp gerekli modüllerin inmesini bekleyin indikten sonra `npm test` yazarak botu başlatın!
+* `settings.js` dosyasında bulunan `mongoDB` kısmına mongo linkinizi girin, Mongo linki almayı bilmiyorsanız [Tıklayın](https://www.youtube.com/watch?v=s_-gJn9GDus)
+* Terminali açıp `npm install` yazıp gerekli modüllerin inmesini bekleyin indikten sonra `node index.js` yazarak botu başlatın!
 * İNTENTLERİ AÇMAYI UNUTMAYIN !!!!!!! 
 
 # KULLANIM
-* Bottaki gerekli kurulumları yaptıktan sonra `.yardım` komutu ile önünüze çıkan yardım menüsünden komutlara ulaşabilirsiniz.
+* Bottaki kurulumları tamamladıktan sonra \`işlemler\` ve \`işlem-sıfırla\`  komutları ile kaydedilen verilere bakabilir ve sıfırlayabilirsiniz.
 
 # Sıkça Sorulan Sorular (SSS) / Alınan Hatalar
 * `Error [TOKEN_INVALID]: An invalid token was provided.` böyle bir hata ile karşılaşırsanız tokeniniz yanlıştır settings.js/token kısmından botunuzun tokenini kontrol edin!
