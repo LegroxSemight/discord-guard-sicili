@@ -1,0 +1,16 @@
+{
+  "name": "discord-guard-sicil",
+  "version": "1.0.0",
+  "description": "V13 Discord Guard sicil komutudur!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "https://github.com/LegroxSemight?tab=repositories",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "mongoose": "^6.2.10"
+  }
+}
