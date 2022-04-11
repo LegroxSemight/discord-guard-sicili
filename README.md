@@ -9,11 +9,7 @@ Sunucuda yapılan işlemleri dataya kaydettirip komut ile gösteren bottur isted
 * `settings.json` dosyasında bulunan `mongoDB` kısmına mongo linkinizi girin, Mongo linki almayı bilmiyorsanız [Tıklayın](https://www.youtube.com/watch?v=s_-gJn9GDus)
 * Terminali açıp `npm install` yazıp gerekli modüllerin inmesini bekleyin indikten sonra `node index.js` yazarak botu başlatın!
 * İNTENTLERİ AÇMAYI UNUTMAYIN !!!!!!! 
-
-# ÖRNEK!
-[unknown](https://user-images.githubusercontent.com/83615795/162726556-a63be85b-16d2-4516-b9ca-ce6d992ffe42.png)
-
-
+* 
 # Sıkça Sorulan Sorular (SSS) / Alınan Hatalar
 * `Error [TOKEN_INVALID]: An invalid token was provided.` böyle bir hata ile karşılaşırsanız tokeniniz yanlıştır settings.js/token kısmından botunuzun tokenini kontrol edin!
 
