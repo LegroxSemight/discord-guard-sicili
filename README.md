@@ -5,8 +5,8 @@ Sunucuda yapılan işlemleri dataya kaydettirip komut ile gösteren bottur isted
 * [Node.JS](https://nodejs.org/en/) Cihazınınızda Node kurulu olduğundan emin olun!
 * Yeşil Code butonuna basın ve Downland zip seçeneğine tıklayın indirme işlemini bekleyin.
 * İndirme işlemi tamamlandığında zipin üstüne gelerek buraya çıkartı işaretleyin.
-* Klasörü çıkardıkdan sonra `settings.js` adlı dosyayı doldurmanız gerekmekte doğru bir şekilde doldurduğunuzdan emin olun.
-* `settings.js` dosyasında bulunan `mongoDB` kısmına mongo linkinizi girin, Mongo linki almayı bilmiyorsanız [Tıklayın](https://www.youtube.com/watch?v=s_-gJn9GDus)
+* Klasörü çıkardıkdan sonra `settings.json` adlı dosyayı doldurmanız gerekmekte doğru bir şekilde doldurduğunuzdan emin olun.
+* `settings.json` dosyasında bulunan `mongoDB` kısmına mongo linkinizi girin, Mongo linki almayı bilmiyorsanız [Tıklayın](https://www.youtube.com/watch?v=s_-gJn9GDus)
 * Terminali açıp `npm install` yazıp gerekli modüllerin inmesini bekleyin indikten sonra `node index.js` yazarak botu başlatın!
 * İNTENTLERİ AÇMAYI UNUTMAYIN !!!!!!! 
 
