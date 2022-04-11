@@ -10,9 +10,8 @@ Sunucuda yapılan işlemleri dataya kaydettirip komut ile gösteren bottur isted
 * Terminali açıp `npm install` yazıp gerekli modüllerin inmesini bekleyin indikten sonra `node index.js` yazarak botu başlatın!
 * İNTENTLERİ AÇMAYI UNUTMAYIN !!!!!!! 
 
-# KULLANIM
-* Bottaki kurulumları tamamladıktan sonra \`işlemler\` ve \`işlem-sıfırla\`  komutları ile kaydedilen verilere bakabilir ve sıfırlayabilirsiniz.
-
+# ÖRNEK
+https://cdn.discordapp.com/attachments/962991784672235571/963026171820388392/unknown.png
 # Sıkça Sorulan Sorular (SSS) / Alınan Hatalar
 * `Error [TOKEN_INVALID]: An invalid token was provided.` böyle bir hata ile karşılaşırsanız tokeniniz yanlıştır settings.js/token kısmından botunuzun tokenini kontrol edin!
 
