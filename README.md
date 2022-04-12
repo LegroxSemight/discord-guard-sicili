@@ -13,6 +13,9 @@ Sunucuda yapılan işlemleri dataya kaydettirip komut ile gösteren bottur isted
 # Sıkça Sorulan Sorular (SSS) / Alınan Hatalar
 * `Error [TOKEN_INVALID]: An invalid token was provided.` böyle bir hata ile karşılaşırsanız tokeniniz yanlıştır settings.js/token kısmından botunuzun tokenini kontrol edin!
 
+# ÖRNEK
+![image](https://cdn.discordapp.com/attachments/953308134418546738/963482261662076988/unknown.png)
+
 # İLETİŞİM
 * Botla ilgili herhangi bir hata veya soru için [Discord Adresim](https://discord.com/users/852584041831989288)'den bana ulaşabilirsiniz.
 * Yardım almak için [Serendia](discord.gg/serendia) Sunucusunu ziyaret edebilirsiniz.
